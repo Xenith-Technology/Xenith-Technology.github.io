@@ -45,3 +45,23 @@
     margin-right: 75px;
     font-weight: 700;
 }
+
+@media screen and (max-width: 736px) { 
+    .product-container {
+        display: none;
+        /* border: 1px solid red; */
+        /* position: absolute;
+        top: -10px;
+        right: -10px;
+        width: 220px;
+        z-index: 1000;     */
+    }
+    .product-container-left {
+        display: none;
+        /* position: absolute;
+        top: -10px;
+        left: -10px;
+        width: 220px;
+        z-index: 1000; */
+    }
+}
